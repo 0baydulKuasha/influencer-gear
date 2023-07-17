@@ -147,10 +147,45 @@
     line-height: 143%;
     letter-spacing: 0.252px;
 }
-
-
-
 /* popular collection part end  */
+/* Featured products at one place part stard */
+.Featured-products .banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3a3a3a;
+}
+.Featured-products .banner .banner-img{
+    width: ;
+}
+.Featured-products .banner .banner-text{
+    padding:20px 30px ;
+}
+.Featured-products .banner .banner-text h1{
+    font-size: 52px;
+    font-weight: 700px;
+    line-height: 70px;
+}
+.Featured-products .banner .banner-text p{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px 0;
+    text-align: justify;
+}
+.Featured-products .banner .banner-text .fa-solid{
+    padding:0 0 0 20px;
+}
+/* Featured products at one place part end  */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -202,7 +237,17 @@
     }
 
     /* popular collection part end */
-
+    /* Featured products at one place part stard  */
+   .Featured-products .banner{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    
+    }
+    .Featured-products .banner .banner-img{
+        padding: 0 20px;
+        width: 100%;
+    }
+    /* Featured products at one place part end */
 }
 
 
